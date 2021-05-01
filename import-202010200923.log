@@ -1,0 +1,22 @@
+``ruby
+require 'metasploit/framework/login_scanner/http'
+
+module Metasploit
+  module Framework
+    module LoginScanner
+      class SymantecWebGateway < HTTP
+
+
+        # Attemps to login to the server.
+        #
+        # @param [Metasploit::Framework::Credential] credential The credential information.
+        # @return [Result] A Result object indicating success or failure
+        def attempt_login(credential)
+
+        end
+
+      end
+    end
+  end
+end
+```
